@@ -1,0 +1,136 @@
+div.grid2 {
+    text-align: center;
+}
+
+div.grid2 table {
+    table-layout: fixed;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-collapse: collapse;
+    empty-cells: show;
+    margin: 0 auto;
+    padding: 0;
+}
+
+tr.grid2 {
+    height: 50px;
+    padding: 0pt;
+    margin: 0pt;
+}
+
+div.grid3 table {
+    border-width: 0px;
+    height: 50px;
+}
+
+tr.math {
+    height: 13pt;
+    width: 50px;
+}
+
+td.math {
+    border-width: 0px;
+    margin: 0pt;
+    padding: 0pt;
+    height: 9pt;
+    width: 50px;
+    font-size: 10pt;
+    text-align: left;
+    vertical-align: top;
+}
+
+td.normal{
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 0pt;
+    margin: 0pt;
+    text-align: left;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+}
+
+td.rightedge{
+    border-top: 1px solid grey;
+    border-right: 3px solid black;
+    text-align: left;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+}
+
+td.bottomedge{
+    margin: 0pt;
+    padding: 0pt;
+    border-top: 1px solid grey;
+    border-bottom: 3px solid black;
+    border-right: 1px solid grey;
+    width: 50px;
+    height: 50px;
+    text-align: left;
+    vertical-align: top;
+}
+
+td.bottomright{
+    border-top: 1px solid grey;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    text-align: left;
+    vertical-align: top;
+}
+
+tr.num {
+    height: 30pt;
+}
+
+td.num {
+    margin: 0pt;
+    padding: 0pt;
+    line-height: 0em;
+    font-size: 30pt;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.gridinput {
+    border: solid 0;
+    width: 20pt;
+    font-size: 20pt;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.gridinputsmall {
+    border: solid 0;
+    margin: 0pt;
+    width: 30pt;
+    font-size: 8pt;
+    text-align: center;
+    vertical-align: top;
+}
+
+.gridinputred {
+    border: solid 0;
+    margin: 0pt;
+    width: 20pt;
+    font-size: 20pt;
+    text-align: center;
+    vertical-align: middle;
+    color: red
+}
+
+.gridinputgreen {
+    border: solid 0;
+    margin: 0pt;
+    width: 20pt;
+    font-size: 20pt;
+    text-align: center;
+    vertical-align: middle;
+    color: green
+}
+
